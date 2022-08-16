@@ -10,10 +10,9 @@ let input = result.input
     let a = parseInt(n[1]);
     let b = parseInt(n[2]);
 
-    if (x => a && x <= b) {
-        console.log('IN')
-    } else if (x <= b || x >= b || x <= b) {
-        console.log('OUT');
+    if (x > a && x <= b) {
+        console.log("IN")
+    }else{
+        console.log("OUT");
     }
-  
 });
